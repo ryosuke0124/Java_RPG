@@ -1,10 +1,12 @@
 public class Main {
 	public static void main(String[] args) {
-		// 勇者を生成
-		Hero h = new Hero();
-		// フィールドに初期値をセット
-		h.name = "ミナト";
-		h.hp = 100;
+		Hero h1;
+		h1 = new Hero();
+		h1.hp = 100;
+		Hero h2;
+		h2 = h1;
+		h2.hp = 200;
+		System.out.println(h1.hp);
 
 		// お化けキノコAを生成
 		Matango m1 = new Matango();
