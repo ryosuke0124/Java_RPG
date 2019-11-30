@@ -40,10 +40,9 @@ public class Main {
 		//h2.hp = 100;
 
 		Wizard w = new Wizard();
-		w.name = "スガワラ";
-		w.hp = 50;
-		w.heal(h1);
-		w.heal(h2);
-		w.heal(h2);
+		Character c = w;
+		Matango m = new Matango();
+		c.name = "アサカ";
+		c.attack(m);
 	}
 }
